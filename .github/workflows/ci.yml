@@ -13,7 +13,6 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    chmod +x gradlew
 
     steps:
       - uses: actions/checkout@v2
